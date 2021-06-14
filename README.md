@@ -13,22 +13,24 @@ The official site for Docker is https://www.docker.com/ The site has all informa
 <br>
 Commands:<br>
 <br>
-1. FROM - To create base image.
-2. COPY- Copy from host to user/root in docker image.
-3. EXPOSE - For network interface (Port number).
-4. WORKDIR- user/root (path in the base image).
-5. RUN - install dependent libraries.
-6. CMD - To make the application run. 
+1. FROM - To create base image.<br>
+2. COPY- Copy from host to user/root in docker image.<br>
+3. EXPOSE - For network interface (Port number).<br>
+4. WORKDIR- user/root (path in the base image).<br>
+5. RUN - install dependent libraries.<br>
+6. CMD - To make the application run.<br>
 All the above commands will be used in Dockerfile.<br>
 <br>
 Docker Hub − Docker Hub is a registry service on the cloud that allows you to download Docker images that are built by other communities. You can also upload your own Docker built images to Docker hub.<br>
 <br>
 Docker Images - In Docker, everything is based on Images. An image is a combination of a file system and parameters.<br>
+<br>
 Displaying Docker Images<br>
 To see the list of Docker images on the system, you can issue the following command:<br>
 Syntax:<br>
 docker images<br>
 This command is used to display all the images currently installed on the system.<br>
+<br>
 Removing Docker Images:<br>
 The Docker images on the system can be removed via the docker rmi command.<br>
 Syntax:<br>
