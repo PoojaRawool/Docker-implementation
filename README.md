@@ -27,7 +27,7 @@ All the above commands will be used in Dockerfile.<br>
 <br>
 <b>Displaying Docker Images</b><br>
 To see the list of Docker images on the system, you can issue the following command:<br>
-Syntax:<br>
+<b>Syntax:</b><br>
 docker images<br>
 This command is used to display all the images currently installed on the system.<br>
 <br>
@@ -35,7 +35,7 @@ This command is used to display all the images currently installed on the system
 The Docker images on the system can be removed via the docker rmi command.<br>
 <b>Syntax:</b><br>
 docker rmi ImageID<br>
-Options:<br>
+<b>Options:</b><br>
 ImageID − This is the ID of the image which needs to be removed.<br>
 <br>
 <b>Docker Containers - </b>Containers are instances of Docker images that can be run using the Docker run command. The basic purpose of Docker is to run containers.
