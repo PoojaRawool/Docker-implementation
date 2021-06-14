@@ -1,7 +1,7 @@
 # Docker-implementation
 Docker is a container management service. The keywords of Docker are develop, ship and run anywhere. The whole idea of Docker is for developers to easily develop applications, ship them into containers which can then be deployed anywhere.<br>
 <br>
-Advantages of docker:<br>
+<b>Advantages of docker:</b><br>
 1. Environment standardization.
 2. Build once deploy anywhere.
 3. Isolation.
@@ -21,21 +21,21 @@ The official site for Docker is https://www.docker.com/ The site has all informa
 6. CMD - To make the application run.<br>
 All the above commands will be used in Dockerfile.<br>
 <br>
-Docker Hub − Docker Hub is a registry service on the cloud that allows you to download Docker images that are built by other communities. You can also upload your own Docker built images to Docker hub.<br>
+<b>Docker Hub − </b>Docker Hub is a registry service on the cloud that allows you to download Docker images that are built by other communities. You can also upload your own Docker built images to Docker hub.<br>
 <br>
-Docker Images - In Docker, everything is based on Images. An image is a combination of a file system and parameters.<br>
+<b>Docker Images - </b>In Docker, everything is based on Images. An image is a combination of a file system and parameters.<br>
 <br>
-Displaying Docker Images<br>
+<b>Displaying Docker Images</b><br>
 To see the list of Docker images on the system, you can issue the following command:<br>
 Syntax:<br>
 docker images<br>
 This command is used to display all the images currently installed on the system.<br>
 <br>
-Removing Docker Images:<br>
+<b>Removing Docker Images:</b><br>
 The Docker images on the system can be removed via the docker rmi command.<br>
-Syntax:<br>
+<b>Syntax:</b><br>
 docker rmi ImageID<br>
 Options:<br>
 ImageID − This is the ID of the image which needs to be removed.<br>
 <br>
-Docker Containers - Containers are instances of Docker images that can be run using the Docker run command. The basic purpose of Docker is to run containers.
+<b>Docker Containers - </b>Containers are instances of Docker images that can be run using the Docker run command. The basic purpose of Docker is to run containers.
