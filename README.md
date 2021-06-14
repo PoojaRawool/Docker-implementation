@@ -11,7 +11,7 @@ First we will download the required base image from the docker hub than add all 
 <br>
 The official site for Docker is https://www.docker.com/ The site has all information and documentation about the Docker software. It also has the download links for various operating systems.<br>
 <br>
-Commands:<br>
+<b>Commands:</b><br>
 <br>
 1. FROM - To create base image.<br>
 2. COPY- Copy from host to user/root in docker image.<br>
